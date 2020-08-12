@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Spotify Stats </title></head>
+  </head>
+  <body>
+    <form action="{{ url_for('artist_info') }}" method="post">
+      <center><h3> Please enter Spotify Artist ID below </h3></center>
+      <br>
+      <center><input type="text" id="id" name="id"></center>
+      <br>
+      <center><button id="stats"> Analyze </button></center>
+    </form>
+
+    <center>{{results}}</center>
+  </body>
+</html>
