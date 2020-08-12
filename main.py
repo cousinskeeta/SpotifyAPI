@@ -2,8 +2,8 @@ from flask import Flask, render_template, Response, request, session
 from spotify_client import SpotifyAPI
 import requests 
 
-client_id = '44de127a887f4755ba7c01dfef802955'
-client_secret = 'e04df21b0e64427eb8a932c7457ae0b1'
+client_id = ''
+client_secret = ''
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'this is a very long secret keep that i hope no one figures out'
